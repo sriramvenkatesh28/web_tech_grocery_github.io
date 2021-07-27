@@ -1,0 +1,219 @@
+*{padding:0;margin:0}
+body{
+    font-family: Rubik;
+    display:none;
+}
+#social-icons{
+    display:flex;
+    flex-direction:row-reverse;
+    width:100%;   
+}
+#social-icons svg{
+    margin-right:15px;
+}
+#main-bg{
+    background-image:url('../images/foodstuffs1.jpg');
+    background-position: center;
+    background-size:cover;
+    height:480px;
+}
+#heading-cont{
+    padding:10px 0 10px 10px;
+    background-color: rgba(0,0,0,.57);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#heading-f{
+    background-color: #fff;
+    margin-right:15px;
+    padding:5px;
+    border-radius: 10px;
+    height:35px;
+    border:1px solid green;
+    letter-spacing: 1px;
+}
+#title-s{
+    text-align: center;
+    letter-spacing: 1px;
+}
+#nav{
+    margin-right:25px;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+li a{
+    text-decoration: none;
+    color:orange;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+a:hover{
+    font-weight: 900;
+    text-decoration: underline;
+}
+#section-2{
+    padding: 20px;
+}
+#s-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:35px;
+    padding:20px;
+    background-color: rgba(0,0,0,.6);
+}
+#p-1, #p-2{
+    font-size:2em;
+    color:white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+#p-2{
+    font-size:1.75em;
+    text-align: center;
+}
+#p-3{
+    color:lightgray;
+    text-align: center;
+}
+#btn-cont{
+    margin:18px 0;
+}
+#btn-cont button{
+    border:none;
+    padding:10px;
+    border-radius: 5px;
+    background:none;
+    color:#fff;
+    font-weight: bold;
+    border:2px solid #fff;
+}
+#btn-cont button:hover{
+    color:black;
+    background-color: white;
+}
+#s-3-cont{
+    margin: 50px 0;
+    padding:5px;
+    max-width: 850px;
+    max-height: 400px;
+    margin: auto;
+}
+#s3-cont-i{
+    border:thin solid #ccc;
+    padding:20px;
+    border-radius: 5px;
+    margin:20px;
+}
+#h2, .s3-p{
+    text-align: center;
+    color:grey;
+}
+#h2{color:black;}
+
+.s3-p{font-size:.8em;}
+#img-cont{display: none;}
+#s4{
+    background-image: url('../images/mainfood.jpg');
+    background-position: center;
+    background-size: cover;
+}
+i{
+    color:green;
+}
+#s4-i{
+    background-color: rgba(0,0,0,.8);
+}
+.card{
+    padding:0 0 10px 10px;
+    margin-left: 10px;
+}
+.card h3{
+    color:#fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.card p{
+    color:lightgray;
+    width:50%;
+}
+#footer{
+    background-color: #252b46;
+    padding:28px 0 0 5px;
+    color:cornsilk;
+}
+#last-div{
+    padding:10px;
+    max-width:90px;
+    margin: auto;
+}
+#footer-ul div{
+    display: flex;
+    justify-content: space-around;
+}
+@media all and (min-width:500px){
+    #info{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media all and (min-width:400px){
+    #heading-cont{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #heading-f{
+        margin-bottom: 15px;
+    }
+    #nav ul li{
+        display:inline-block;
+    } 
+}
+@media all and (min-width:750px){
+    .card p{width:100%;}
+    #p-1,#p-2{
+        font-size:2em;
+    }
+    #s4-i{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        height:180px;
+    }
+    #s-3-cont{
+        display: flex;
+        flex-flow: row-reverse;
+    }
+    #s3-cont-i{
+        width:40%;
+        border:none;
+    }
+    #img-cont{
+        display:block;
+        width:60%;
+        padding:5px 0 20px 0px;
+    }
+    img{
+        width:100%;
+        height: 100%;
+    }
+
+.s3-p,#h2{
+    text-align: left;
+    padding-left:20px;
+}
+      #info{
+        display: flex;
+        justify-content: space-around;
+        max-width:650px;
+        width:75%;
+        margin:auto;
+    }
+}
